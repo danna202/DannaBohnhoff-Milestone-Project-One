@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    }
+    
+    h1 {
+    margin-top: 50px;
+    }
+    
+    #table {
+    position: relative;
+    margin-top: 50px;
+    width: 800px;
+    height: 500px;
+    background-image: url("table.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    
+    #dealer-hand,
+    #player-hand {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    }
+    
+    #dealer-hand {
+    left: 50px;
+    }
+    
+    #player-hand {
+    right: 50px;
+    }
+    
+    #dealer-cards,
+    #player-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    
+    #dealer-cards div,
+    #player-cards div {
+    width: 100px;
+    height: 150px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    }
+    
+    #dealer-score,
+    #player-score {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    }
+    
+    button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    
+    button:hover {
+    background-color: #555;
+    }
